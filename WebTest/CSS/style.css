@@ -1,0 +1,685 @@
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑",Verdana,Arial,sans-serif;
+	background-color:#f5dcbc;
+}
+input{
+	background-color:white;
+}
+#page{
+	width:715px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	height:500px;
+	background:white;
+	border-radius:5px;
+	box-shadow:0 0 20px #333;
+	background:url(../image/01.jpg);
+	background-size:100%;
+}
+#header{
+	width:715px;
+	height:55px;
+	border-radius:3px;
+	background-color:#f51a14;
+	padding-top:8px;
+}
+#header h1{
+	color:white;
+	text-align:center;
+	font-size:1.8em;
+}
+
+#content{
+	width:250px;
+	height:320px;
+	background-color:#eaeaec;
+	float:right;
+	margin-top:60px;
+	margin-right:60px;
+	border-radius:5px;
+	box-shadow:0 0 20px #333;
+}
+
+#login_form{
+	margin-left:15px;
+	margin-top:20px;
+	
+}
+#login_form label:not([for="rememberme"]){
+	display:none;	
+}
+
+#login_form input:not([type=checkbox]){
+	width:180px;
+	height:40px;
+	margin-bottom:20px;
+	font-size:1em;
+	border:1px solid #d7d7d7;
+	padding:0 10px 0 30px;
+	border-radius:4px;
+	box-shadow:inset 0 0 10px #cecece;
+}
+
+#login_form input:focus{
+	border:1px solid #4ba7e3;
+	box-shadow:none;
+	border-radius:4px;
+}
+
+#login_form #u_name{
+	background:url(../image/user.png) no-repeat 7px 17px;
+}
+
+#login_form #u_name:focus{
+	background:url(../image/user-focus.png) no-repeat 7px 17px;
+}
+#login_form #u_pwd{
+	background:url(../image/pwd.png) no-repeat 7px 17px;
+}
+
+#login_form #u_pwd:focus{
+	background:url(../image/pwd-focus.png) no-repeat 7px 17px;
+}
+
+#login_form #btn_login{
+	width:75px;
+	height:40px;
+	margin-top:40px;
+	margin-left:74px;
+	color:#fff;
+	font-size:1em;
+	border-radius:3px;
+	border:1px solid #5aa21c;
+	/* Webkit: Safari 4-5, Chrome 1-9 */ 
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8fd849), to(#56b31a)); 
+/* Webkit: Safari 5.1+, Chrome 10+ */ 
+background: -webkit-linear-gradient(top, #8fd849, #56b31a); 
+/* Firefox 3.6+ */ 
+background: -moz-linear-gradient(top, #8fd849, #56b31a); 
+/* Opera 11.10+ */ 
+background: -o-linear-gradient(top, #8fd849, #56b31a); 
+/* IE 10 */ 
+background: -ms-linear-gradient(top, #8fd849, #56b31a); 
+/* IE < 10 */ 
+/* 注意：这一行必须写在最后 */ 
+FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#8fd849, endColorStr=#56b31a);	
+}
+
+#login_form #btn_login:hover{
+	/* Webkit: Safari 4-5, Chrome 1-9 */ 
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8fe646), to(#6eca1e)); 
+/* Webkit: Safari 5.1+, Chrome 10+ */ 
+background: -webkit-linear-gradient(top, #8fe646, #6eca1e); 
+/* Firefox 3.6+ */ 
+background: -moz-linear-gradient(top, #8fe646, #6eca1e); 
+/* Opera 11.10+ */ 
+background: -o-linear-gradient(top, #8fe646, #6eca1e); 
+/* IE 10 */ 
+background: -ms-linear-gradient(top, #8fe646, #6eca1e); 
+/* IE < 10 */ 
+/* 注意：这一行必须写在最后 */ 
+FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#8fe646, endColorStr=#6eca1e);	
+}
+.fgt-reg a{
+	color:#0379f1;
+	font-size;2px;
+}
+.fgt-reg{
+	margin-left:20px;
+}
+
+/*------------留言-----------------------*/
+#page_2{
+	width:715px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	height:500px;
+	background:white;
+	border-radius:5px;
+	box-shadow:0 0 20px #333;
+	
+}
+#header_2{
+	width:715px;
+	height:55px;
+	border-radius:3px;
+	background-color:#f51a14;
+	padding-top:8px;
+}
+#header_2 h1{
+	color:white;
+	text-align:center;
+	font-size:1.8em;
+}
+.leave_message{
+	width:620px;
+	height:140px;
+	margin-top:30px;
+	margin-left:50px;
+	padding-top:20px;
+	border-radius:5px;
+	box-shadow:0 0 20px #333;
+}
+.liuyan{
+	margin-left:20px;
+}
+.reply{
+	margin-left:320px;
+}
+/*------------首页-----------------------*/
+#page_3{
+	width:715px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	height:500px;
+	background:white;
+	border-radius:5px;
+	box-shadow:0 0 20px #333;
+	
+}
+#header_3{
+	width:715px;
+	height:55px;
+	border-radius:3px;
+	background-color:#f51a14;
+	padding-top:8px;
+}
+#header_3 h1{
+	color:white;
+	text-align:center;
+	font-size:1.8em;
+}
+.shouye{
+	width:600px;
+	height:140px;
+	margin-top:40px;
+	margin-left:25px;
+}
+.content_3{
+	width:240px;
+	height:140px;
+	background-color:#eaeaec;
+	border-radius:5px;
+	box-shadow:0 0 20px #333;
+	float:left;
+	margin-left:60px;
+}
+.content_3 h3{
+	margin-left:100px;
+}
+.tiaozhuan{
+	width:200px;
+	height:90px;
+	background-color:white;
+	margin-left:20px;
+	margin-top:8px;
+}
+/*------------投票-----------------------*/
+#page_4{
+	width:715px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	height:500px;
+	background:white;
+	border-radius:5px;
+	box-shadow:0 0 20px #333;
+	
+}
+#header_4{
+	width:715px;
+	height:55px;
+	border-radius:3px;
+	background-color:#f51a14;
+	padding-top:8px;
+}
+#header_4 h1{
+	color:white;
+	text-align:center;
+	font-size:1.8em;
+}
+#content_4{
+	width:715px;
+	height:80px;
+	margin-top:10px;
+	margin-left:20px;
+}
+.vote_box{
+	width:40px;
+	height:40px;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+}
+#tiao{
+	height:40px;
+	width:500px;
+	background-color:#fff100;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+}
+#tiao2{
+	height:40px;
+	width:250px;
+	background-color:#00a0ea;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+}
+#tiao3{
+	height:40px;
+	width:100px;
+	background-color:#32b16c;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+}
+#tiao4{
+	height:40px;
+	width:300px;
+	background-color:#ed6942;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+}
+#login_form2 #btn_login{
+	width:75px;
+	height:40px;
+	margin-top:10px;
+	margin-left:300px;
+	color:#fff;
+	font-size:1em;
+	border-radius:3px;
+	border:1px solid #5aa21c;
+	/* Webkit: Safari 4-5, Chrome 1-9 */ 
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8fd849), to(#56b31a)); 
+/* Webkit: Safari 5.1+, Chrome 10+ */ 
+background: -webkit-linear-gradient(top, #8fd849, #56b31a); 
+/* Firefox 3.6+ */ 
+background: -moz-linear-gradient(top, #8fd849, #56b31a); 
+/* Opera 11.10+ */ 
+background: -o-linear-gradient(top, #8fd849, #56b31a); 
+/* IE 10 */ 
+background: -ms-linear-gradient(top, #8fd849, #56b31a); 
+/* IE < 10 */ 
+/* 注意：这一行必须写在最后 */ 
+FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#8fd849, endColorStr=#56b31a);	
+}
+
+#login_form2 #btn_login:hover{
+	/* Webkit: Safari 4-5, Chrome 1-9 */ 
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8fe646), to(#6eca1e)); 
+/* Webkit: Safari 5.1+, Chrome 10+ */ 
+background: -webkit-linear-gradient(top, #8fe646, #6eca1e); 
+/* Firefox 3.6+ */ 
+background: -moz-linear-gradient(top, #8fe646, #6eca1e); 
+/* Opera 11.10+ */ 
+background: -o-linear-gradient(top, #8fe646, #6eca1e); 
+/* IE 10 */ 
+background: -ms-linear-gradient(top, #8fe646, #6eca1e); 
+/* IE < 10 */ 
+/* 注意：这一行必须写在最后 */ 
+FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#8fe646, endColorStr=#6eca1e);	
+}
+
+/*------------好友-----------------------*/
+#page_5{
+	width:715px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	height:500px;
+	background:#d0cccd;
+	border-radius:5px;
+	box-shadow:0 0 20px #333;
+	
+}
+#header_5{
+	width:715px;
+	height:55px;
+	border-radius:3px;
+	background-color:#f51a14;
+	padding-top:8px;
+}
+#header_5 h1{
+	color:white;
+	text-align:center;
+	font-size:1.8em;
+}
+#content_5{
+	width:650px;
+	height:380px;
+	background-color:white;
+	margin-left:32px;
+	padding-top:20px;
+	margin-top:36px;
+}
+.part1{
+	border:1px solid white;
+	float:left;
+}
+
+.friends{
+	width:300px;
+	height:70px;
+	border:1px solid white;
+	margin-left:22px;
+	float:left;
+}
+.friend_message{
+	float:left;
+	height:70px;
+	width:100px;
+	border:1px solid white;
+}
+.friend_message p{
+	float:left;
+	margin-top:20px;
+	margin-left:20px;
+	color:#0066FF;
+	font-size:20px;
+}
+#btn_login2{
+	width:60px;
+	height:30px;
+	float:left;
+	margin-top:20px;
+	margin-left:20px;
+	color:#fff;
+	font-size:1em;
+	border-radius:3px;
+	border:1px solid #5aa21c;
+	/* Webkit: Safari 4-5, Chrome 1-9 */ 
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8fd849), to(#56b31a)); 
+/* Webkit: Safari 5.1+, Chrome 10+ */ 
+background: -webkit-linear-gradient(top, #8fd849, #56b31a); 
+/* Firefox 3.6+ */ 
+background: -moz-linear-gradient(top, #8fd849, #56b31a); 
+/* Opera 11.10+ */ 
+background: -o-linear-gradient(top, #8fd849, #56b31a); 
+/* IE 10 */ 
+background: -ms-linear-gradient(top, #8fd849, #56b31a); 
+/* IE < 10 */ 
+/* 注意：这一行必须写在最后 */ 
+FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#8fd849, endColorStr=#56b31a);	
+}
+
+#btn_login2:hover{
+	/* Webkit: Safari 4-5, Chrome 1-9 */ 
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8fe646), to(#6eca1e)); 
+/* Webkit: Safari 5.1+, Chrome 10+ */ 
+background: -webkit-linear-gradient(top, #8fe646, #6eca1e); 
+/* Firefox 3.6+ */ 
+background: -moz-linear-gradient(top, #8fe646, #6eca1e); 
+/* Opera 11.10+ */ 
+background: -o-linear-gradient(top, #8fe646, #6eca1e); 
+/* IE 10 */ 
+background: -ms-linear-gradient(top, #8fe646, #6eca1e); 
+/* IE < 10 */ 
+/* 注意：这一行必须写在最后 */ 
+FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#8fe646, endColorStr=#6eca1e);	
+}
+.friends img{
+	width:60px;
+	height:60px;
+	float:left;
+}
+
+
+.me{
+	margin-left:600px;
+	margin-top:15px;
+}
+
+/*------------动态-----------------------*/
+#page_6{
+	width:715px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	height:500px;
+	background:white;
+	border-radius:5px;
+	box-shadow:0 0 20px #333;
+	
+}
+#header_6{
+	width:715px;
+	height:55px;
+	border-radius:3px;
+	background-color:#f51a14;
+	padding-top:8px;
+}
+#header_6 h1{
+	color:white;
+	text-align:center;
+	font-size:1.8em;
+}
+.content2_1{
+	width:600px;
+	height:55px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+}
+.images{
+	width:50px;
+	height:50px;
+	float:left;
+}
+#describe{
+	float:left;
+	margin-top:5px;
+	margin-left:15px;
+}
+.dongtai{
+
+}
+.dongtai2{
+	font-size:10px;
+	margin-top:5px;
+	color:gray;
+}
+.name_color{
+	color:#0066FF;
+}
+
+/*------------注册-----------------------*/
+#page11{
+	width:715px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	height:500px;
+	background:white;
+	border-radius:5px;
+	box-shadow:0 0 20px #333;
+	background-size:100%;
+}
+#header11{
+	width:715px;
+	height:55px;
+	border-radius:3px;
+	background-color:#f51a14;
+	padding-top:8px;
+}
+#header11 h1{
+	color:white;
+	text-align:center;
+	font-size:1.8em;
+}
+
+#content11{
+	width:250px;
+	height:320px;
+	background-color:#eaeaec;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	border-radius:5px;
+	box-shadow:0 0 20px #333;
+	border:1px solid white;
+}
+
+#login_form11{
+	margin-left:15px;
+	margin-top:20px;
+	
+}
+#login_form11 label:not([for="rememberme11"]){
+	display:none;	
+}
+
+#login_form11 input:not([type=checkbox]){
+	width:180px;
+	height:40px;
+	margin-bottom:20px;
+	font-size:1em;
+	border:1px solid #d7d7d7;
+	padding:0 10px 0 30px;
+	border-radius:4px;
+	box-shadow:inset 0 0 10px #cecece;
+}
+
+#login_form11 input:focus{
+	border:1px solid #4ba7e3;
+	box-shadow:none;
+	border-radius:4px;
+}
+
+#login_form11 #u_name11{
+	background:url(../image/user.png) no-repeat 7px 17px;
+}
+
+#login_form11 #u_name11:focus{
+	background:url(../image/user-focus.png) no-repeat 7px 17px;
+}
+#login_form11 #u_pwd11{
+	background:url(../image/pwd.png) no-repeat 7px 17px;
+}
+
+#login_form11 #u_pwd11:focus{
+	background:url(../image/pwd-focus.png) no-repeat 7px 17px;
+}
+#login_form11 #u_pwd12{
+	background:url(../image/pwd.png) no-repeat 7px 17px;
+}
+
+#login_form11 #u_pwd12:focus{
+	background:url(../image/pwd-focus.png) no-repeat 7px 17px;
+}
+#login_form11 #u_phone{
+	background:url(../image/user.png) no-repeat 7px 17px;
+}
+
+#login_form11 #u_phone:focus{
+	background:url(../image/user-focus.png) no-repeat 7px 17px;
+}
+
+#login_form11 #btn_regist{
+	width:75px;
+	height:40px;
+	margin-top:0px;
+	margin-left:24px;
+	color:#fff;
+	font-size:1em;
+	border-radius:3px;
+	border:1px solid #5aa21c;
+	/* Webkit: Safari 4-5, Chrome 1-9 */ 
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8fd849), to(#56b31a)); 
+/* Webkit: Safari 5.1+, Chrome 10+ */ 
+background: -webkit-linear-gradient(top, #8fd849, #56b31a); 
+/* Firefox 3.6+ */ 
+background: -moz-linear-gradient(top, #8fd849, #56b31a); 
+/* Opera 11.10+ */ 
+background: -o-linear-gradient(top, #8fd849, #56b31a); 
+/* IE 10 */ 
+background: -ms-linear-gradient(top, #8fd849, #56b31a); 
+/* IE < 10 */ 
+/* 注意：这一行必须写在最后 */ 
+FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#8fd849, endColorStr=#56b31a);	
+}
+
+#login_form11 #btn_regist:hover{
+	/* Webkit: Safari 4-5, Chrome 1-9 */ 
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8fe646), to(#6eca1e)); 
+/* Webkit: Safari 5.1+, Chrome 10+ */ 
+background: -webkit-linear-gradient(top, #8fe646, #6eca1e); 
+/* Firefox 3.6+ */ 
+background: -moz-linear-gradient(top, #8fe646, #6eca1e); 
+/* Opera 11.10+ */ 
+background: -o-linear-gradient(top, #8fe646, #6eca1e); 
+/* IE 10 */ 
+background: -ms-linear-gradient(top, #8fe646, #6eca1e); 
+/* IE < 10 */ 
+/* 注意：这一行必须写在最后 */ 
+FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#8fe646, endColorStr=#6eca1e);	
+}
+
+#login_form11 #btn_login12{
+	width:75px;
+	height:40px;
+	margin-top:0px;
+	margin-left:24px;
+	color:#fff;
+	font-size:1em;
+	border-radius:3px;
+	border:1px solid #5aa21c;
+	/* Webkit: Safari 4-5, Chrome 1-9 */ 
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8fd849), to(#56b31a)); 
+/* Webkit: Safari 5.1+, Chrome 10+ */ 
+background: -webkit-linear-gradient(top, #8fd849, #56b31a); 
+/* Firefox 3.6+ */ 
+background: -moz-linear-gradient(top, #8fd849, #56b31a); 
+/* Opera 11.10+ */ 
+background: -o-linear-gradient(top, #8fd849, #56b31a); 
+/* IE 10 */ 
+background: -ms-linear-gradient(top, #8fd849, #56b31a); 
+/* IE < 10 */ 
+/* 注意：这一行必须写在最后 */ 
+FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#8fd849, endColorStr=#56b31a);	
+}
+
+#login_form11 #btn_login12:hover{
+	/* Webkit: Safari 4-5, Chrome 1-9 */ 
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8fe646), to(#6eca1e)); 
+/* Webkit: Safari 5.1+, Chrome 10+ */ 
+background: -webkit-linear-gradient(top, #8fe646, #6eca1e); 
+/* Firefox 3.6+ */ 
+background: -moz-linear-gradient(top, #8fe646, #6eca1e); 
+/* Opera 11.10+ */ 
+background: -o-linear-gradient(top, #8fe646, #6eca1e); 
+/* IE 10 */ 
+background: -ms-linear-gradient(top, #8fe646, #6eca1e); 
+/* IE < 10 */ 
+/* 注意：这一行必须写在最后 */ 
+FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#8fe646, endColorStr=#6eca1e);	
+}
+.fgt-reg a{
+	color:#0379f1;
+	font-size;2px;
+}
+.fgt-reg{
+	margin-left:20px;
+}
+#erroInfo{
+	width:200px;
+	height:50px;
+	position:absolute;
+	background-color:#fef7bd;
+	border:2px solid #f5dd17;
+	border-radius:15px;
+	margin-left:60%;
+	margin-top:10%;
+	display:none;
+}
