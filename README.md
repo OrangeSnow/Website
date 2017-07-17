@@ -10,7 +10,10 @@ The url（直接访问的网址）：https://orangesnow.github.io/Website/WebTes
 ## 登入界面
 进行登入，可记住用户名、密码，存到cookies里
 <img src="img/01.jpg" />
-<img src="img/02.jpg" />
+## 注册界面
+用户进行注册
+右侧会有弹窗提示用户名是否符合规范、密码输入是否正确，注册内容正确通过校验，才能注册成功。
+<img src="img/07.jpg" />
 <img src="img/03.jpg" />
 <img src="img/04.jpg" />
 <img src="img/05.jpg" />
