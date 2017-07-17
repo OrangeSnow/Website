@@ -25,7 +25,8 @@ The url（直接访问的网址）：https://orangesnow.github.io/Website/WebTes
 <img src="img/04.jpg" />
 ## 修改密码
 <img src="img/05.jpg" />
-## 修改密码
+
+## 投票
 可以查看投票、删除投票、新建投票
 <img src="img/06.jpg" />
 
