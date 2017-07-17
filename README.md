@@ -6,3 +6,10 @@
 由于github只支持utf-8，因为使用as写的，后续功能投票、留言必须要用GB2312，因此不上传了。
 
 The url（直接访问的网址）：https://orangesnow.github.io/Website/WebTest/index.html
+
+<img src="img/01.png" />
+<img src="img/02.png" />
+<img src="img/03.png" />
+<img src="img/04.png" />
+<img src="img/05.png" />
+<img src="img/06.png" />
