@@ -7,9 +7,9 @@
 
 The url（直接访问的网址）：https://orangesnow.github.io/Website/WebTest/index.html
 
-<img src="img/01.png" />
-<img src="img/02.png" />
-<img src="img/03.png" />
-<img src="img/04.png" />
-<img src="img/05.png" />
-<img src="img/06.png" />
+<img src="img/01.jpg" />
+<img src="img/02.jpg" />
+<img src="img/03.jpg" />
+<img src="img/04.jpg" />
+<img src="img/05.jpg" />
+<img src="img/06.jpg" />
