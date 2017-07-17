@@ -7,7 +7,7 @@
 
 The url（直接访问的网址）：https://orangesnow.github.io/Website/WebTest/index.html
 
-##登入界面
+## 登入界面
 进行登入，可记住用户名、密码，存到cookies里
 <img src="img/01.jpg" />
 <img src="img/02.jpg" />
